@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <style>
+        h1 {background-color: #68f97b;}
+         a:visited {color: #000000;}
+         a:hover {background-color: #9a9a9a;}
+        /* ^ pseudo selector , you need the : */
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color:  #82a1aa;
+            background-image:  url('https://images.app.goo.gl/oGnTd964uCc3YxhW8');
+        }
+        .bgimage { 
+            background-image: url('images/flagotto.gif');
+        background-size: 10%;
+        }
+
+        .box {background-color:  #2a8da8;
+            border:5px solid #000000;
+            padding:  30px;
+            margin: 30px;
+        
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Header</h1>
+    <h2 class="bgimage">Header Two</h2>
+    <p><a href="http://www.microsoft.com">Microsoft</a><br>
+              <a href="http://www.apple.com">Apple</a></p>
+
+    <p class="box"> janluis gonzalez. I am a junior studying information management and technology major interested in working on and coding for plug-ins for music production. I am a dominican man who lives in washington heights, located in new york city. I am bilingual, an artist, music producer, and photographer. outside of school/work I am a family man, I like to enjoy time with friends and I love to create art and continuing to expand on my ideas and concepts. I often read, pray and go to the gym. My favorite movies are lion king, princess and the frog, home alone 2, waves, avengers infinity war, and star wars empire strikes back. </p>
+</body>
+
+</html
