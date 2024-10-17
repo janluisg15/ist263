@@ -10,10 +10,11 @@ h1, h2 {color: #011f4b;}
 nav a {
     background-color: #6497b1;
     color: #99aab5;
-    padding: 10px;
-    margin-bottom: 30px;
 }
 
 nav a:hover {background-color: #005b96;}
 
+nav {padding: 10px;
+    margin-bottom: 30px;
+}
 
