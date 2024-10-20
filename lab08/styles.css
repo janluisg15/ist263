@@ -21,15 +21,7 @@ nav {padding: 10px;
 .evenrow {background-color: lightgray;}
 
 
-.img1 {
-    float: left;
-    margin-right:10px;
-}
-.clear {
-    clear: both;
-}
+.img1 {float: left; margin-right:10px;}
+.clear {clear: both;}
 
-.float-right {
-    float: right;
-    margin-right: 10px;
-}
+.float-right {float: right; margin-right: 10px;}
