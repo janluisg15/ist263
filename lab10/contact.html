@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <style>
+        .firstrow, .secondrow 
+        {display: flex;
+        background-color: #b3cde0;
+        border-radius: 1em;
+        margin: 1em;
+        padding: 2em;
+        } 
+        .firstrow div, .secondrow div 
+        {flex: 1;
+        margin: 1em;
+        }
+        .firstrow, .secondrow {flex: 2; order: 3; background-color: #fafafa; border-radius: 1em;}
+    </style>
+
+    <body>
+        <nav>
+            <a href="gonzalez-bio.html">Home</a> |
+            <a href="skills.html">Skills</a> |
+            <a href="contact.html">Contact</a> |
+        </nav>
+        <h1>Contact</h1>
+          
+    <div class="firstrow">
+        <div>
+            <h2>Address</h2> <br>
+            <p>
+            Janluis Gonzalez <br>
+            900 S Crouse Ave <br>
+            Syracuse, NY 13244 <br> 
+            </p>
+        </div>
+        <div>
+            <p>
+            <a href="mailto:jgonza77@syr.edu">jgonza77@syr.edu</a>
+            </p>
+            <p>
+            <img src="../images/LinkedIn-Logos/logo_sized.png" alt="Linked In"><a href="https://www.linkedin.com" target="_blank"> My LinkedIn Profile </a>
+            </p></div>
+    </div>
+    <div class="secondrow">
+        <div>
+            <br>
+            <form action="https://formspree.io/f/mblrvjkd" method="post">
+                <label for="fname">First Name</label> 
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname">
+            <br>
+            
+            <br>
+            <label for="appointment?">What day are you available to schedule an appointment?</label><br>
+            <textarea id="appointment?" name="appointment?" rows="5" cols="50">
+            </textarea>
+            <br>
+        
+            <br>
+            <label for="Photos">What type of Photos are you looking to take?</label> <br>
+            <input type="radio" id="a" name="letters">
+            <label for="a">Headshots</label> <br>
+            <input type="radio" id="b" name="letters">
+            <label for="b">Wedding Photos</label> <br>
+            <input type="radio" id="c" name="letters">
+            <label for="c">Family Photos</label> <br>
+            <br>
+        
+            
+            <br>
+            <label for="Colors">What colors do you feel most comfortable wearing?</label> <br>
+            <input type="checkbox" id="d" name="letters">
+            <label for="d">Red</label> <br>
+            <input type="checkbox" id="e" name="letters">
+            <label for="e">Blue</label> <br>
+            <input type="checkbox" id="f" name="letters">
+            <label for="f">Green</label> <br>
+            <input type="checkbox" id="g" name="letters">
+            <label for="g">White</label> <br>
+            <input type="checkbox" id="h" name="letters">
+            <label for="h">Black</label> <br>
+            <input type="checkbox" id="i" name="letters">
+            <label for="i">Gray</label> <br>
+            <br>
+            
+        
+            <input type="submit" value="send form">
+        
+        
+            </form>
+        </div>
+        <div>
+            <p>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.132187748252!2d-76.13627248828469!3d43.038650171017615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39fba2ccc55%3A0x5e6089065251084d!2sSyracuse%20University!5e0!3m2!1sen!2sus!4v1726284893963!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+    </div>
+        
