@@ -67,26 +67,26 @@ h3 {text-align: center;
     height: auto;
 }
 
-.map {
+.secondrow {
     display: flex;
     flex-wrap: wrap;
 }
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     nav a {
-        display: inline;
+        display: block;
         width: 100%;
         padding: 10px 0;
     }
 }
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     nav span {
         display: none;
     }
 }
 
-@media (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     nav span {
         margin-bottom: 10px;
     }
