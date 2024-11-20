@@ -9,18 +9,13 @@ h1, h2 {color: #011f4b;}
 
 nav a {
     background-color: #6497b1;
-    color: #000000;
+    color: #99aab5;
 }
 
 nav a:hover {background-color: #005b96;}
 
 nav {padding: 10px;
     margin-bottom: 30px;
-}
-
-.container {display : flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .evenrow {background-color: lightgray;}
@@ -39,24 +34,20 @@ nav {padding: 10px;
 .float-right {float: right; margin-right: 10px;}
 
 
-.firstrow, .secondrow, .thirdrow
-        {display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        background-color: #b3cde0;
-        border-radius: 1em;
-        margin: 1em;
-        padding: 2em;
-        
-    } 
+.firstrow, .secondrow 
+{display: flex;
+background-color: #b3cde0;
+border-radius: 1em;
+margin: 1em;
+padding: 2em;
+} 
 
-.firstrow div, .secondrow div, .thirdrow {
+.firstrow div, .secondrow div {
     flex: 1;
     margin: 1em;
 }
 
-.firstrow, .secondrow, .thirdrow {flex: 2; order: 3; background-color: #fafafa; border-radius: 1em;}
+.firstrow, .secondrow {flex: 2; order: 3; background-color: #fafafa; border-radius: 1em;}
 
 h3 {text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -99,27 +90,4 @@ h3 {text-align: center;
     nav span {
         margin-bottom: 10px;
     }
-}
-
-.firstrow {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
-    background-color: #fafafa;
-    border-radius: 1em;
-    margin: 1em;
-    padding: 2em;
-}
-
-.firstrow .text {
-    flex: 2;
-    padding: 1em;
-}
-
-.firstrow .images{
-flex: 1;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
 }
