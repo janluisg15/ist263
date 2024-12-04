@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Contact</title>
+       
+    </head>
+    
+    <style>
+    body {
+    background-color:  #b3cde0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    }
+    
+    a {
+    color: #03396c;
+    }
+    
+    h1, h2, h3 {
+    color: #011f4b;
+    }
+
+
+    nav a {
+    background-color: #6497b1;
+    color: #000000;
+    }
+
+    nav a:hover {
+    background-color: #005b96;
+    }
+
+    nav {
+    padding: 10px;
+    margin-bottom: 30px;
+    }
+
+    .container {
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }   
+        
+    .firstrow, .secondrow, .thirdrow {
+    display: flex;
+    background-color: #b3cde0;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 2em;
+    } 
+
+    .firstrow div, .secondrow div, .thirdrow div {
+    flex: 1;
+    margin: 1em;
+    }
+        
+    .firstrow, .secondrow, .thirdrow {
+    flex: 2; order: 3; background-color: #fafafa; border-radius: 1em;
+    }
+
+
+    @media only screen and (max-width: 800px) {
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    }
+
+    @media only screen and (max-width: 800px) {
+    nav span {
+        display: none;
+    }
+    }
+
+    @media only screen and (max-width: 800px) {
+    nav span {
+        margin-bottom: 10px;
+    }
+    }
+
+    </style>
+    <body>
+        <nav>
+            <a href="page1.html">Home</a> <span>|</span>
+            <a href="page2.html">Photos</a> <span>|</span>
+            <a href="page3.html">Contact</a> <span>|</span>
+        </nav>
+        <h1>Contact Information</h1>
+        <div class="firstrow"> 
+        <div>
+        <p>
+        Name: J Kristian Barnes <br>
+       </p>
+       <p>
+        Email: <a href="mailto:popsography@outlook.com">popsography@outlook.com</a>
+       </p>
+       <p>
+        Phone number: (315)-680-8888
+       </p>
+    </div>
+    <div>
+       <img src="../images/Project-Images/IMG_7542 2.JPG" alt="Contact" width="350" height="250"> 
+       <br>
+       
+       <br>
+    </div>
+    </div>
+       <div class="secondrow"> 
+        <div>
+            <h2>Locations:</h2>
+       <p>
+       1. Armory Sq
+       <br>
+       2. Franklin Sq
+       <br>
+       3. Thorden Park
+       <br>
+       4. Onodaga Lake Park
+       <br>
+       5. Downtown Syracuse
+       <br>
+       </p>
+    </div>
+    </div>
+       
+       <div class="thirdrow"> 
+        <div>
+            <h3>Interest Form:</h3>
+
+            <form action="https://formspree.io/f/mblrvjkd" method="post">
+                <label for="fname">First Name</label> 
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname">
+            <br>
+            
+            <br>
+            <label for="appointment?">What day works for you?</label><br>
+            <textarea id="appointment?" name="appointment?" rows="5" cols="50">
+            </textarea>
+            <br>
+
+
+            <br>
+            <label for="Colors">What colors will you be wearing?</label> <br>
+            <input type="checkbox" id="a" name="letters">
+            <label for="a">Red</label> <br>
+            <input type="checkbox" id="b" name="letters">
+            <label for="b">Blue</label> <br>
+            <input type="checkbox" id="c" name="letters">
+            <label for="c">Green</label> <br>
+            <input type="checkbox" id="d" name="letters">
+            <label for="d">White</label> <br>
+            <input type="checkbox" id="e" name="letters">
+            <label for="e">Black</label> <br>
+            <input type="checkbox" id="f" name="letters">
+            <label for="f">Gray</label> <br>
+            <input type="checkbox" id="g" name="letters">
+            <label for="g">Purple</label> <br>
+            <input type="checkbox" id="h" name="letters">
+            <label for="h">Pink</label> <br>
+            <input type="checkbox" id="i" name="letters">
+            <label for="i">Yellow</label> <br>
+            <input type="checkbox" id="j" name="letters">
+            <label for="j">Orange</label> <br>
+            <input type="checkbox" id="k" name="letters">
+            <label for="k">Brown</label> <br>
+            <input type="checkbox" id="l" name="letters">
+            <label for="l">Biege</label> <br>
+            <br>
+        </div>
+        <div>
+            <br>
+            <label for="Photos">What type of Photos are you looking to take?</label> <br>
+            <input type="radio" id="m" name="letters">
+            <label for="m">Wedding Photos</label> <br>
+            <input type="radio" id="n" name="letters">
+            <label for="n">Portrait Photos</label> <br>
+            <input type="radio" id="o" name="letters">
+            <label for="o">Music Related Photos</label> <br>
+            <input type="radio" id="p" name="letters">
+            <label for="p">Family Photos</label> <br>
+            <br>
+
+
+            <br>
+            <label for="payment?">How will you be paying?</label><br>
+            <textarea id="payment?" name="payment?" rows="5" cols="50">
+            </textarea>
+            <br>
+            
+        
+            <input type="submit" value="send form">
+        
+        </div>
+
+            </form>
+        </body>
+        <br>
+        <br>
+
+    </div>
+
+            <footer>
+                <hr>
+                &copy; 2020 TheJKrisEffect
+                
+            </footer>
