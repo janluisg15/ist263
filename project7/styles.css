@@ -9,7 +9,7 @@ h1, h2 {color: #011f4b;}
 
 nav a {
     background-color: #002fba;
-    color: #f2f235;
+    color: #FFFFFF;
 }
 
 nav a:hover {background-color: #005b96;}
@@ -32,25 +32,37 @@ nav {padding: 10px;
 .float-right {float: right; margin-right: 10px;}
 
 
-.firstrow, .secondrow, .thirdrow
-        {display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        background-color: #b3cde0;
-        border-radius: 1em;
-        margin: 1em;
-        padding: 2em;
-        
-    } 
+.firstrow, .secondrow, .thirdrow, .fourthrow
+            {display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #b3cde0;
+            border-radius: 1em;
+            margin: 1em;
+            padding: 2em;
+            
+        } 
+.firstrow div, .secondrow div, .thirdrow div, .fourthrow
+            {flex: 1;
+            margin: 1em;
+            }
+    
+    
+.firstrow, .secondrow, .thirdrow, .fourthrow {
+    order: 3; 
+    background-color: #fafafa; 
+    border-radius: 1em;
+    width: 40%;
+    display: flex; 
+    flex-wrap: wrap;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
-.firstrow div, .secondrow div, .thirdrow {
-    flex: 1;
-    margin: 1em;
 }
-
-.firstrow, .secondrow, .thirdrow {flex: 2; order: 3; background-color: #fafafa; border-radius: 1em;}
-
+    
 h3 {text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 1em;

@@ -7,8 +7,9 @@
         <title>TheJkrissEffect</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jaro:opsz@6..72&family=Kaushan+Script&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+        
         <nav>
             <a href="page1.html">Home</a> <span>|</span>
             <a href="page2.html">Photos</a> <span>|</span>
@@ -22,16 +23,25 @@
     <style>
     body {
     background-color:  #b3cde0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     color: #000000;
     }
+
     a {color: #03396c;}
 
     h1, h2, h3, h4 {color: #011f4b;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: "Space Grotesk", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
     }
 
-    
+    h2 {
+        text-align: center;
+    }
 
     nav a {
     background-color: #99A0FF;
@@ -72,10 +82,43 @@
 
 
     .firstrow {
-        font-family: "Kaushan Script", cursive;
-        font-weight: 400;
+        font-family: "Space Grotesk", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
         font-style: normal;
+        color: #000000;
     }
+
+    img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    @media only screen and (max-width: 800px) {
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    nav span {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    nav span {
+        margin-bottom: 10px;
+    }
+}
+
+img {
+width: 100%;
+height: auto;
+   }
     
 
 
@@ -144,6 +187,7 @@
 
 
 
-<!-- organize CSS -->
+<!-- organize CSS PROCESS-->
 <!-- Make pages Responsive -->
-<!-- Change Color for links on top  -->
+<!-- Change Color for links on top  FINSIHED -->
+<!-- Change Font for all pages -->
