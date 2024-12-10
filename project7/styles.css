@@ -18,10 +18,10 @@ nav {padding: 10px;
     margin-bottom: 30px;
 }
 
-/*.container {display : flex;
+.container {display : flex;
     flex-wrap: wrap;
     justify-content: space-between;
-} */
+} 
 
 .evenrow {background-color: lightgray;}
 
@@ -53,7 +53,6 @@ nav {padding: 10px;
     order: 3; 
     background-color: #fafafa; 
     border-radius: 1em;
-    width: 40%;
     display: flex; 
     flex-wrap: wrap;
     display: block;
@@ -116,3 +115,13 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 }
+
+.page1img {
+    max-width: 450px;
+}
+
+.page2img1, .page2img2, .page2img3, .pageimg4 {
+    max-width: 450px;
+}
+
+

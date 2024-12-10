@@ -4,108 +4,124 @@
         <meta charset="utf-8">
         <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
         <title>Photos</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+        
 
-    </head>
-    <style>
+        <style>
         body {
         background-color:  #b3cde0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: "Space Grotesk", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
         color: #000000;
         }
-        a {color: #03396c;}
-        h1, h2, h3, h4 {color: #011f4b;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
 
+        a { 
+        color: #03396c;
+        }
+           
+        
+
+    
         h1 {
         text-align: center;
         }
-    
+        
         nav a {
         background-color: #6497b1;
         color: #000000;
         }   
-    
-        nav a:hover {background-color: #005b96;}
-    
-        nav {padding: 10px;
+        
+        nav a:hover {
+        background-color: #005b96;
+        }
+        
+        nav {
+        padding: 10px;
         margin-bottom: 30px;
         }
-    
-        .container {display : flex;
+        
+        .container {
+        display : flex;
         flex-wrap: wrap;
         justify-content: space-between;
         }
-    
-       
-    
-        .firstrow, .secondrow, .thirdrow, .fourthrow
-            {display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            background-color: #b3cde0;
-            border-radius: 1em;
-            margin: 1em;
-            padding: 2em;
-            
-        } 
-        .firstrow div, .secondrow div, .thirdrow div, .fourthrow
-            {flex: 1;
-            margin: 1em;
-            }
-    
-    
+        
         .firstrow, .secondrow, .thirdrow, .fourthrow {
-            order: 3; 
-            background-color: #fafafa; 
-            border-radius: 1em;
-            width: 40%;
-            display: flex; 
-            flex-wrap: wrap;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #b3cde0;
+        border-radius: 1em;
+        margin: 1em;
+        padding: 2em;
+        font-family: "Space Grotesk", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        text-align: center;
+        }
 
+        .firstrow div, .secondrow div, .thirdrow div, .fourthrow {
+        flex: 1;
+        margin: 1em;
         }
         
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
+        .firstrow, .secondrow, .thirdrow, .fourthrow {
+        order: 3; 
+        background-color: #fafafa; 
+        border-radius: 1em;
+        width: 40%;
+        display: flex; 
+        flex-wrap: wrap;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
         }
-    
+            
+        img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
         @media only screen and (max-width: 800px) {
-    nav a {
+        nav a {
         display: block;
         width: 100%;
         padding: 10px 0;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    nav span {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    nav span {
-        margin-bottom: 10px;
-    }
-}
-
-img {
-width: 100%;
-height: auto;
-   }
+        }
+        }
     
+        @media only screen and (max-width: 800px) {
+        nav span {
+            display: none;
+        }
+        }
+    
+        @media only screen and (max-width: 800px) {
+        nav span {
+            margin-bottom: 10px;
+        }
+        }
+    
+        img {
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+        }
+
+
         </style>
+    </head>
+   
     <body>
         <nav>
             <a href="page1.html">Home</a> <span>|</span>
@@ -113,10 +129,10 @@ height: auto;
             <a href="page3.html">Contact</a> <span>|</span>
         </nav>
 
-        <h1>Capture the Moment</h1>
+    <h1>Capture the Moment</h1>
        
     <div class="firstrow">
-        <div>
+        <div class="page2img1">
         <p>
         <img src="../images/Project-Images/IMG_3273 2.png" alt="Photo 3" width="350" height="250">
         </p>
@@ -129,7 +145,7 @@ height: auto;
     </div>
         <br>
     <div class="secondrow">
-    <div>
+    <div class="page2img2">
         <p>
         <img src="../images/Project-Images/016A8986 4.png" alt="Photo 4" width="350" height="250">
         </p>
@@ -143,7 +159,7 @@ height: auto;
         <br>
 
     <div class="thirdrow">
-        <div>
+        <div class="page2img3">
         <p>
         <img src="../images/Project-Images/016A6908 5.png" alt="Photo 5" width="200" height="250">
         </p>
@@ -157,7 +173,7 @@ height: auto;
         <br>
 
     <div class="fourthrow">
-    <div>
+    <div class="page2img4">
         <p>
         <img src="../images/Project-Images/016A5885 4.png" alt="Photo 6" width="200" height="250">
         </p>
@@ -170,10 +186,6 @@ height: auto;
     </div>
         <br>
 
-      
-
-
-        
         
     </body>
     <footer>
