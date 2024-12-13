@@ -12,160 +12,161 @@
         <title>Contact</title>
         <link rel="stylesheet" href="styles.css">
        
+        <style>
+            body {
+            background-color:  #b3cde0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #000000;
+            }
+            
+            a {
+            color: #03396c;
+            }
+            
+            h1, h2, h3 {
+            color: #011f4b;
+            }
+        
+            nav a {
+            background-color: #6497b1;
+            color: #000000;
+            }
+        
+            nav a:hover {
+            background-color: #005b96;
+            }
+        
+            nav {
+            padding: 10px;
+            margin-bottom: 30px;
+            }
+        
+            .container {
+            display : flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            }   
+                
+            .firstrow, .secondrow, .thirdrow {
+            display: flex;
+            background-color: #b3cde0;
+            border-radius: 1em;
+            margin: 1em;
+            padding: 2em;
+            } 
+        
+            .firstrow div, .secondrow div, .thirdrow div {
+            flex: 1;
+            margin: 1em;
+            }
+                
+            .firstrow, .secondrow, .thirdrow {
+            flex: 2; 
+            order: 3; 
+            background-color: #fafafa; 
+            border-radius: 1em;
+            }
+        
+            .parent-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 1rem;
+            }
+        
+            form {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 1rem;
+            box-sizing: border-box;
+            }
+        
+            @media (max-width: 600px) {
+                form {
+                    width: 90%;
+                }
+            }
+        
+            input,textarea, button {
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 1rem;
+            }
+            
+        
+            @media only screen and (max-width: 800px) {
+            nav a {
+                display: block;
+                width: 100%;
+                padding: 10px 0;
+            }
+            }
+        
+            @media only screen and (max-width: 800px) {
+            nav span {
+                display: none;
+            }
+            }
+        
+            @media only screen and (max-width: 800px) {
+            nav span {
+                margin-bottom: 10px;
+            }
+            }
+        
+            img {
+            width: 100%;
+            height: auto;
+            }
+        
+            .firstrow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            padding: 1rem;
+            }
+        
+            .image-wrapper {
+            order: 2;
+            }
+        
+            .text-context {
+            order: 1;
+            }
+        
+            img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-top: auto;
+            }
+        
+            @media (max-width: 600px) {
+            .firstrow {
+                flex-direction: column;
+            }
+            img {
+                max-width: 100%;
+            }
+            }
+        
+            img {
+            width: 300px;
+            height: 300px;
+            clip-path: circle(50%);
+            object-fit: cover;
+            }
+        
+        
+        </style>
     </head>
     
-    <style>
-    body {
-    background-color:  #b3cde0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #000000;
-    }
     
-    a {
-    color: #03396c;
-    }
-    
-    h1, h2, h3 {
-    color: #011f4b;
-    }
-
-    nav a {
-    background-color: #6497b1;
-    color: #000000;
-    }
-
-    nav a:hover {
-    background-color: #005b96;
-    }
-
-    nav {
-    padding: 10px;
-    margin-bottom: 30px;
-    }
-
-    .container {
-    display : flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    }   
-        
-    .firstrow, .secondrow, .thirdrow {
-    display: flex;
-    background-color: #b3cde0;
-    border-radius: 1em;
-    margin: 1em;
-    padding: 2em;
-    } 
-
-    .firstrow div, .secondrow div, .thirdrow div {
-    flex: 1;
-    margin: 1em;
-    }
-        
-    .firstrow, .secondrow, .thirdrow {
-    flex: 2; 
-    order: 3; 
-    background-color: #fafafa; 
-    border-radius: 1em;
-    }
-
-    .parent-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 1rem;
-    }
-
-    form {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 1rem;
-    box-sizing: border-box;
-    }
-
-    @media (max-width: 600px) {
-        form {
-            width: 90%;
-        }
-    }
-
-    input,textarea, button {
-    width: 100%;
-    max-width: 500px;
-    margin-bottom: 1rem;
-    }
-    
-
-    @media only screen and (max-width: 800px) {
-    nav a {
-        display: block;
-        width: 100%;
-        padding: 10px 0;
-    }
-    }
-
-    @media only screen and (max-width: 800px) {
-    nav span {
-        display: none;
-    }
-    }
-
-    @media only screen and (max-width: 800px) {
-    nav span {
-        margin-bottom: 10px;
-    }
-    }
-
-    img {
-    width: 100%;
-    height: auto;
-    }
-
-    .firstrow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 1rem;
-    }
-
-    .image-wrapper {
-    order: 2;
-    }
-
-    .text-context {
-    order: 1;
-    }
-
-    img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin-top: auto;
-    }
-
-    @media (max-width: 600px) {
-    .firstrow {
-        flex-direction: column;
-    }
-    img {
-        max-width: 100%;
-    }
-    }
-
-    img {
-    width: 300px;
-    height: 300px;
-    clip-path: circle(50%);
-    object-fit: cover;
-    }
-
-
-    </style>
     <body>
         <nav>
             <a href="page1.html">Home</a> <span>|</span>
