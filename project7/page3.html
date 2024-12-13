@@ -29,7 +29,6 @@
     color: #011f4b;
     }
 
-
     nav a {
     background-color: #6497b1;
     color: #000000;
@@ -64,9 +63,41 @@
     }
         
     .firstrow, .secondrow, .thirdrow {
-    flex: 2; order: 3; background-color: #fafafa; border-radius: 1em;
+    flex: 2; 
+    order: 3; 
+    background-color: #fafafa; 
+    border-radius: 1em;
     }
 
+    .parent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    }
+
+    form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    }
+
+    @media (max-width: 600px) {
+        form {
+            width: 90%;
+        }
+    }
+
+    input,textarea, button {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 1rem;
+    }
+    
 
     @media only screen and (max-width: 800px) {
     nav a {
@@ -89,11 +120,49 @@
     }
 
     img {
-width: 100%;
-height: auto;
-   }
+    width: 100%;
+    height: auto;
+    }
 
+    .firstrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    }
 
+    .image-wrapper {
+    order: 2;
+    }
+
+    .text-context {
+    order: 1;
+    }
+
+    img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: auto;
+    }
+
+    @media (max-width: 600px) {
+    .firstrow {
+        flex-direction: column;
+    }
+    img {
+        max-width: 100%;
+    }
+    }
+
+    img {
+    width: 300px;
+    height: 300px;
+    clip-path: circle(50%);
+    object-fit: cover;
+    }
 
 
     </style>
@@ -105,7 +174,7 @@ height: auto;
         </nav>
         <h1>Contact Information</h1>
         <div class="firstrow"> 
-        <div>
+        <div class="text-content">
         <p>
         Name: J Kristian Barnes <br>
        </p>
@@ -116,7 +185,7 @@ height: auto;
         Phone number: (315)-680-8888
        </p>
     </div>
-    <div>
+    <div class="image-wrapper">
        <img src="../images/Project-Images/IMG_7542 2.JPG" alt="Photo 7" width="350" height="250"> 
        <br>
        
@@ -160,44 +229,47 @@ height: auto;
 
 
             <br>
-            <label for="Colors">What colors will you be wearing?</label> <br>
-            <input type="checkbox" id="a" name="letters">
+            <label for="Colors">What colors will you be wearing?</label> 
+            <br>
+            <br>
             <label for="a">Red</label> <br>
-            <input type="checkbox" id="b" name="letters">
+            <input type="checkbox" id="a" name="letters">
             <label for="b">Blue</label> <br>
-            <input type="checkbox" id="c" name="letters">
+            <input type="checkbox" id="b" name="letters">
             <label for="c">Green</label> <br>
-            <input type="checkbox" id="d" name="letters">
+            <input type="checkbox" id="c" name="letters">
             <label for="d">White</label> <br>
-            <input type="checkbox" id="e" name="letters">
+            <input type="checkbox" id="d" name="letters">
             <label for="e">Black</label> <br>
-            <input type="checkbox" id="f" name="letters">
+            <input type="checkbox" id="e" name="letters">
             <label for="f">Gray</label> <br>
-            <input type="checkbox" id="g" name="letters">
+            <input type="checkbox" id="f" name="letters">
             <label for="g">Purple</label> <br>
-            <input type="checkbox" id="h" name="letters">
+            <input type="checkbox" id="g" name="letters">
             <label for="h">Pink</label> <br>
-            <input type="checkbox" id="i" name="letters">
+            <input type="checkbox" id="h" name="letters">
             <label for="i">Yellow</label> <br>
-            <input type="checkbox" id="j" name="letters">
+            <input type="checkbox" id="i" name="letters">
             <label for="j">Orange</label> <br>
-            <input type="checkbox" id="k" name="letters">
+            <input type="checkbox" id="j" name="letters">
             <label for="k">Brown</label> <br>
-            <input type="checkbox" id="l" name="letters">
+            <input type="checkbox" id="k" name="letters">
             <label for="l">Biege</label> <br>
+            <input type="checkbox" id="l" name="letters">
             <br>
         </div>
         <div>
             <br>
             <label for="Photos">What type of Photos are you looking to take?</label> <br>
-            <input type="radio" id="m" name="letters">
+            <br>
             <label for="m">Wedding Photos</label> <br>
-            <input type="radio" id="n" name="letters">
+            <input type="radio" id="m" name="letters">
             <label for="n">Portrait Photos</label> <br>
-            <input type="radio" id="o" name="letters">
+            <input type="radio" id="n" name="letters">
             <label for="o">Music Related Photos</label> <br>
-            <input type="radio" id="p" name="letters">
+            <input type="radio" id="o" name="letters">
             <label for="p">Family Photos</label> <br>
+            <input type="radio" id="p" name="letters">
             <br>
 
 
