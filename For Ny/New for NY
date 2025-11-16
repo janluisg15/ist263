@@ -9,43 +9,42 @@
 
 <body>
     <nav>
-        <a href="index.html">Home</a> <span>|</span>
+        <a href="index.html">This is for you</a> <span>|</span>
         <a href="memories.html">Memories</a> <span>|</span>
-        <a href="letters.html">Letters</a>
     </nav>
 
     <header>
-        <h1>Happy 3 Months, My Love ❤️</h1>
-        <p class="subtitle">Three months of smiles, love, and growing together.</p>
+        <h1>Happy 3 Months To My Safe Space ❤️</h1>
+        <p class="subtitle">Three months filled with laughter, love, loyalty and growing together.</p>
     </header>
 
     <main>
         <section>
-            <h2>For My Safe Place</h2>
+            <h2>To the most Beautiful Woman I know: </h2>
             <p>
-                These last three months with you have been full of warmth, laughs, and peace.  
-                I made this little website to celebrate what you mean to me.  
+                These last three months with you have been the highlight of my college career. I never knew that someones smile and laughter could make my day so special. I never knew someones soul could radiate such beautiful energy. I never knew that God would bless me with someone so incredible.
             </p>
             <p>
-                You make my days brighter, my thoughts softer, and my future feel exciting.  
-                Thank you for loving me the way you do.  
+                You make my days brighter, my mind calmer and most importantly my life easier. I am so blessed to be with someone who respects me and loves me the way I have always dreamed of. Thank you so much for being your authentic and beautiful self. I couldn't ask for more.
             </p>
         </section>
 
         <section>
-            <h2>Why I Love You</h2>
+            <h2>Reasons Why I Love You</h2>
             <ul>
-                <li>Your smile makes everything better</li>
-                <li>You listen, understand, and bring me peace</li>
-                <li>You support my dreams and inspire me</li>
-                <li>You're truly one of a kind</li>
+                <li>You have such beautiful eyes</li>
+                <li>You have the best smile in the world</li>
+                <li>You support my dreams and push me to be better</li>
+                <li>You treat our relantionship with such gentleness</li>
+                <li>You respect me and my boundaries</li>
+                <li>I have never met anyone who is so loving and caring for the people around them</li>
             </ul>
         </section>
     </main>
 
     <footer>
         <hr>
-        &copy; 2025 Janluis — Made with love 💗
+        &copy; Made with love 💗
     </footer>
 </body>
 </html>

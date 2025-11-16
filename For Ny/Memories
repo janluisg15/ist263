@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+       
+
+        <title>Memories</title>
+    
+
+    </head>
+    
+    <body>
+        <nav>
+        <a href="index.html">This is for you</a> <span>|</span>
+        <a href="memories.html">Memories</a> <span>|</span>
+    </nav>
+
+        <h1>Cheers to Us!</h1>
+       
+        <p>
+        <img src="../images/IMG_5815.HEIC" alt="Photo 1" width="350" height="250">
+        </p>
+        <p>
+        Our first ever picture!
+        </p>
+        <br>
+        
+        <p>
+        <img src="../images/IMG_6006.HEIC" alt="Photo 2" width="350" height="250">
+        </p>
+        <p>
+        Second time at Crate!
+        </p>
+        <br>
+
+        <p>
+        <img src="../images/IMG_6258 2.HEIC" alt="Photo 3" width="200" height="250">
+        </p>
+        <p>
+        ZOOTOPIA!
+        </p>
+        <br>
+
+        <p>
+        <img src="../images/IMG_6428.HEIC" alt="Photo 4" width="200" height="250">
+        </p>
+        <p>
+        Our famous target runs!
+        </p>
+        <br>
+
+        
+    
+
+
+        
+    </body>
+    <footer>
+        <hr>
+        &copy; Made with love 💗
+        
+    </footer>
+
+</html>
