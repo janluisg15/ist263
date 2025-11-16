@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 3 Months ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-        <title>Janluis Gonzalez</title>
-        <link rel="stylesheet" href="styles.css">
-    <body>
-        <nav>
-            <a href="index.html">Home</a> <span>|</span>
-            <a href="skills.html">Skills</a> <span>|</span>
-            <a href="contact.html">Contact</a> <span>|</span>
-        </nav>
-        <header>
-            <img class="img" src="../images/Photoshop-images/lab05-photo-image.png" alt="Photography in the Palm of your hands">
-            <h1>Janluis Gonzalez Biography</h1>
-        </header>
+<body>
+    <nav>
+        <a href="index.html">Home</a> <span>|</span>
+        <a href="memories.html">Memories</a> <span>|</span>
+        <a href="letters.html">Letters</a>
+    </nav>
+
+    <header>
+        <h1>Happy 3 Months, My Love ❤️</h1>
+        <p class="subtitle">Three months of smiles, love, and growing together.</p>
+    </header>
 
     <main>
-        <p>
-        Janluis is a junior studying information management and technology. His focal point and interest dwells in working on and <strong>coding plug-ins for music production</strong>.
-        </p> 
-        <p>
-        He is a dominican man who lives in the washington heights area, located in new york city. He is bilingual, an artist, music producer, and photographer. </p>
-        <p>
-        Outside of school/work he is a family man, He likes to enjoy time with friends and he particularly loves to create art and continue to expand on his ideas and concepts. He often reads, prays and gos to the gym. His favorite movies are lion king, princess and the frog, home alone 2, waves, avengers infinity war, and star wars empire strikes back. 
-        </p>
-         
-        <h2>Personal Info</h2>
-        <p> 
-        He has 2 siblings and his parents are still happily married.
-        </p>
-    <div class="clear"></div>
-        <dl>
-        <dt>Billingual</dt>
-        <dd>Knows how to speak spanish and english</dd>
-        <dt>Artistic</dt>
-        <dd>Music Producer, Drawer, Photographer</dd>
-        <dt>Coder</dt>
-        <dd>Could write Code</dd>
-        </dl>
-        
+        <section>
+            <h2>For My Safe Place</h2>
+            <p>
+                These last three months with you have been full of warmth, laughs, and peace.  
+                I made this little website to celebrate what you mean to me.  
+            </p>
+            <p>
+                You make my days brighter, my thoughts softer, and my future feel exciting.  
+                Thank you for loving me the way you do.  
+            </p>
+        </section>
+
+        <section>
+            <h2>Why I Love You</h2>
+            <ul>
+                <li>Your smile makes everything better</li>
+                <li>You listen, understand, and bring me peace</li>
+                <li>You support my dreams and inspire me</li>
+                <li>You're truly one of a kind</li>
+            </ul>
+        </section>
     </main>
 
     <footer>
         <hr>
-        &copy; 2020 Janluis Gonzalez
-        <div class="float-right">Capturing the beautiful memories of Life</div>
+        &copy; 2025 Janluis — Made with love 💗
     </footer>
-    </body>
+</body>
 </html>
