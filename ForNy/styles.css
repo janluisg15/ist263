@@ -4,7 +4,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center; 
 }
+
 
 nav {
     background: white;
@@ -21,15 +23,12 @@ nav a {
     margin: 0 10px;
 }
 
-header {
-    text-align: center;
-    margin-top: 40px;
-}
-
 h1 {
     font-size: 40px;
     color: #c83f6b;
+    text-align: center;   
 }
+
 
 .subtitle {
     font-size: 18px;
@@ -43,11 +42,6 @@ main {
     background: white;
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0,0,0,0.15);
-}
-
-.container {display : flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 h2 {
@@ -69,24 +63,29 @@ footer {
 
 
 
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
 
 .gallery {
     display: flex;
-    flex-direction: column;  /* stack vertically */
-    align-items: center;     /* center the cards horizontally */
-    gap: 24px;               /* space between cards */
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
     padding-bottom: 40px;
 }
 
-/* Each photo + caption */
 .photo-card {
     text-align: center;
 }
 
-/* Make all images same width, keep proportions */
 .photo-card img {
-    width: 300px;           /* choose a size you like: 250–350px works well */
-    height: auto;           /* no weird stretching */
-    border-radius: 8px;     /* optional: cute rounded corners */
-    display: block;
-}
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    display: block;}
