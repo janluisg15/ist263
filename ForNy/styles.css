@@ -45,6 +45,11 @@ main {
     box-shadow: 0 0 15px rgba(0,0,0,0.15);
 }
 
+.container {display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 h2 {
     color: #c83f6b;
     border-bottom: 2px solid #f0a9c0;
